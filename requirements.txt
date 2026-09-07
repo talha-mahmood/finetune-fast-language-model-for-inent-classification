@@ -1,0 +1,6 @@
+
+fastapi
+uvicorn
+pydantic
+fasttext-wheel
+numpy==1.26.4

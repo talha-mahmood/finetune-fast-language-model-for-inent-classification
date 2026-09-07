@@ -1,0 +1,419 @@
+﻿Query,Predicted_Intent,Confidence,Ground_Truth,Correct,Status
+show my balance,balance_inquiry,1.0000100135803223,balance_inquiry,True,confident
+can you switch my language to chinese,language_update,1.0000097751617432,language_update,True,confident
+can you switch my language to chinese,language_update,1.0000097751617432,language_update,True,confident
+لقد سُرقت بطاقتي، أرجو حظرها فوراً.,block_card,1.0000100135803223,block_card,True,confident
+send me 5000 rs using my phone no 03216023836,raast_fund_transfer,0.5335128307342529,raast_fund_transfer,True,confident
+i want to send money to my sister,bank_fund_transfer,0.8232520818710327,bank_fund_transfer,True,confident
+Hi i want to change my language into FRENCH,language_update,1.0000098943710327,language_update,True,confident
+أريد مسح رمز الاستجابة السريعة لإرسال الأموال,qr_code,0.9999752044677734,qr_code,True,confident
+Transfer 10000 rupees instantly to 03001234567,bank_fund_transfer,0.9089250564575195,raast_fund_transfer,False,confident
+Je souhaite changer la langue de l'application,language_update,1.0000100135803223,language_update,True,confident
+میرے بھائی کو اس کے موبائل نمبر پر 5000 بھیجنے ہیں,raast_fund_transfer,0.9996960163116455,raast_fund_transfer,True,confident
+أريد إضافة مستفيد حتى أتمكن من تحويل الأموال في المستقبل,add_beneficiary,0.9973726868629456,add_beneficiary,True,confident
+Je comprends mieux le français,language_update,0.9520147442817688,language_update,True,confident
+"Transfer 10,000 rupees instantly to 03001234567",raast_fund_transfer,0.5921300053596497,raast_fund_transfer,True,confident
+میرے بھائی کو اس کے موبائل نمبر پر 5000 بھیجنے ہیں,raast_fund_transfer,0.9996960163116455,raast_fund_transfer,True,confident
+Je comprends mieux l'arabe,language_update,0.7949240207672119,language_update,True,confident
+Les données de ma carte bancaire ont été compromises,block_card,0.9997937083244324,block_card,True,confident
+Les informations relatives à ma carte bancaire ont été divulguées,activate_card,0.8531280159950256,block_card,False,confident
+i can not understand french language can you talk with me in urdu,language_update,0.9997161030769348,language_update,True,confident
+traduire le texte en arabe,language_update,1.0000088214874268,chat_agent,False,confident
+i love urdu language can u speak with me in urdu,language_update,1.0000100135803223,language_update,True,confident
+كم المبلغ المتبقي في حسابي؟,balance_inquiry,0.9109866619110107,balance_inquiry,True,confident
+i want to switch the language from french to english,language_update,1.0000100135803223,language_update,True,confident
+Mon ami utilise cette application et il ne comprend que l'arabe.,language_update,0.6192755103111267,language_update,True,confident
+یہ app اردو میں سمجھ نہیں آ ر،  کر دیں,language_update,1.000009298324585,language_update,True,confident
+my friend not understand french and want to talk to you in arabic,bank_fund_transfer,0.8647051453590393,language_update,False,confident
+Je ne comprends que l'ourdou,,0.4649686813354492,language_update,False,uncertain
+my friend not understand french and want to talk to you in arabic can u talk in arabic,language_update,0.8842429518699646,language_update,True,confident
+أحتاج إلى دفع فاتورة الغاز الخاصة بي باستخدام حسابي في بنك ميزان.,bill_payment,0.9029839634895325,bill_payment,True,confident
+On m'a volé ma carte,block_card,0.9999457597732544,block_card,True,confident
+Les informations de ma carte ont été divulguées,block_card,0.9471981525421143,block_card,True,confident
+كيف يمكن لشخص ما مسح شيء ما ضوئياً لإرسال المال إليّ؟,qr_code,0.9993465542793274,qr_code,True,confident
+my card information leaked,block_card,0.9755174517631531,block_card,True,confident
+my card is stolen,block_card,1.0000100135803223,block_card,True,confident
+Les données de ma carte ont été compromises,block_card,0.9999860525131226,block_card,True,confident
+my card is damaged and not properly worked,block_card,1.0000094175338745,block_card,True,confident
+my friend have my card i want they can not use it,block_card,0.9999964237213135,block_card,True,confident
+"hello,whats up",fund_transfer_history,0.9175353050231934,chat_agent,False,confident
+میرا کارڈ گم ہو گیا ہے؛ please اسے  band کر دیں۔,block_card,0.8751227855682373,block_card,True,confident
+بطاقتي مفقودة، أرجو حظرها.,block_card,1.0000100135803223,block_card,True,confident
+Ma carte est entre les mains d'un voleur.,activate_card,0.6508122682571411,block_card,False,confident
+order me some food,,0.42139336466789246,chat_agent,False,uncertain
+میرا کارڈ گم ہو گیا ہے؛  اسے بلاک کر دیں۔,block_card,1.0000100135803223,block_card,True,confident
+Ma carte est chez un ami,block_card,0.9999302625656128,chat_agent,False,confident
+Ma carte a été volée par un ami.,block_card,1.0000100135803223,block_card,True,confident
+scheck my balance,balance_inquiry,1.0000100135803223,balance_inquiry,True,confident
+check my balance,balance_inquiry,1.0000100135803223,balance_inquiry,True,confident
+mje kuch khanai k liay la do,donation,0.7915669679641724,chat_agent,False,confident
+أرني جميع الأشخاص الذين يمكنني تحويل الأموال إليهم.,fund_transfer_history,0.9588428735733032,show_list,False,confident
+send me some money,donation,0.7714825868606567,bank_fund_transfer,False,confident
+میرا نیا card تو گم ہو گیا، پرانا ہی آن کر دیں دوبارہ,activate_card,0.9817613959312439,activate_card,True,confident
+سے ادا کرنا ہے میں نے Jazz کا بل Raast,raast_fund_transfer,0.999946117401123,bill_payment,False,confident
+هذا ليس تحويلاً عبر راست؛ أريد إرساله مباشرة إلى بنكهم,raast_fund_transfer,0.999997615814209,bank_fund_transfer,False,confident
+i want to pay my gas bill,bill_payment,1.0000100135803223,bill_payment,True,confident
+أعطاني المستلم معرف راست بدلاً من رقم الحساب المصرفي الدولي (IBAN).,add_beneficiary,0.9973386526107788,raast_fund_transfer,False,confident
+کوئی میرا card استعمال نہ کر سکے، بازار میں کہیں گر گیا لگتا ہے,block_card,0.9948538541793823,block_card,True,confident
+what can we do my card is not in a good condition,block_card,1.0000025033950806,block_card,True,confident
+my card is stolen i want to make a new card,block_card,0.9821985363960266,block_card,True,confident
+اجعل هذا التطبيق قابلاً للقراءة باللغة الإنجليزية مرة أخرى.,language_update,1.0000026226043701,language_update,True,confident
+کوئی میرا کارڈ استعمال نہ کر سکے، بازار میں کہیں گر گیا لگتا ہے,block_card,0.9951347708702087,block_card,True,confident
+میرے اکاؤنٹ میں کتنے پیسے ہیں,balance_inquiry,1.0000100135803223,balance_inquiry,True,confident
+i want to replace my card beacuse it is damaged,block_card,0.8203027248382568,chat_agent,False,confident
+i want to send money to my friend,bank_fund_transfer,0.9981632828712463,bank_fund_transfer,True,confident
+J'ai reçu ma carte,activate_card,0.9237402677536011,activate_card,True,confident
+كم المبلغ الموجود في حسابي؟,balance_inquiry,0.9747617244720459,balance_inquiry,True,confident
+i want to send 3000 to my close friend ahmed,bank_fund_transfer,0.99708092212677,bank_fund_transfer,True,confident
+"J'ai reçu ma carte, je souhaite maintenant qu'elle soit activée.",activate_card,1.0000096559524536,activate_card,True,confident
+اجعل هذا التطبيق قابلاً للقراءة باللغة الإنجليزية مرة أخرى.,language_update,1.0000026226043701,language_update,True,confident
+کل میری transaction فیل کیوں ہوئی,fund_transfer_history,0.9999748468399048,chat_agent,False,confident
+"J'ai reçu ma carte, je souhaite maintenant l'activer.",activate_card,1.0000094175338745,activate_card,True,confident
+كم يوجد من المال في حسابي؟,balance_inquiry,0.9357202053070068,balance_inquiry,True,confident
+J'ai reçu ma carte par la poste,activate_card,0.999714195728302,activate_card,True,confident
+اجعل هذا التطبيق قابلاً للقراءة باللغة الإنجليزية مرة أخرى.,language_update,1.0000026226043701,language_update,True,confident
+i want to send money to my close friend,bank_fund_transfer,0.9759328365325928,bank_fund_transfer,True,confident
+J'ai reçu ma carte de la banque,block_card,0.6166744232177734,activate_card,False,confident
+how i send money to my family,bank_fund_transfer,0.9222491383552551,bank_fund_transfer,True,confident
+Je souhaite transférer cinq millions à Bob.,bank_fund_transfer,0.996913492679596,bank_fund_transfer,True,confident
+ajouter cinq millions sur le compte de Bob,add_biller,0.6391300559043884,bank_fund_transfer,False,confident
+i want to send money to my friend via raast,raast_fund_transfer,1.0000100135803223,raast_fund_transfer,True,confident
+میری بھانجی کا سکول والوں نے کاغذ بھیجا ہے کہ اس مہینے کی فیس جمع کروانی ہے ورنہ اس کا نام کاٹ دیں گے۔ میری بہن نے مجھ سے کہا ہے کہ چونکہ وہ خود شہر سے باہر ہے، اس لیے میں یہ رقم اس کی جگہ جمع کروا دوں۔ سکول کا اپنا ایک الگ نظام ہے جس میں ادارے کا کوڈ ڈال کر رقم جمع کروانی ہوتی ہے، مجھے وہ کاغذ سامنے رکھ کر یہ کام کرنا ہے,qr_code,0.9575522541999817,bill_payment,False,confident
+قمتُ بتغيير شيء ما في الإعدادات عن طريق الخطأ، والآن يعرض تطبيق الخدمات المصرفية بالكامل بلغة لا أفهمها. هل يمكنك إخباري كيف يمكنني إعادة كل شيء إلى اللغة الإنجليزية؟,language_update,0.9878503680229187,language_update,True,confident
+i want to pay my electricity bill,bill_payment,1.0000091791152954,bill_payment,True,confident
+Bob devrait recevoir 5 880 roupies depuis mon compte,balance_inquiry,0.8994124531745911,bank_fund_transfer,False,confident
+"كنت مسافرًا في وقت سابق اليوم، واكتشفت للتو أن بطاقة الصراف الآلي الخاصة بي ليست في محفظتي. بحثت عنها في كل مكان ولم أجدها، لذا أخشى أن يستخدمها أحدهم في معاملات غير مصرح بها.
+
+أعتقد أنني ربما تركت بطاقة الصراف الآلي الخاصة بي في مكان ما بعد الشراء. لست متأكدًا تمامًا مما إذا كانت مفقودة أم مسروقة، لكنني أريد التأكد من عدم تمكن أي شخص من استخدامها حتى أجدها.",block_card,0.9757281541824341,block_card,True,confident
+i want to pay my electricity bill via raast,bill_payment,0.9985204339027405,raast_fund_transfer,False,confident
+وہ گھومنے والا چکر کہاں ہے جس سے انعام ملتا ہے,spin_wheel,0.9992812275886536,spin_wheel,True,confident
+envoyer 4 000 roupies à Bob via Raast,raast_fund_transfer,1.0000100135803223,raast_fund_transfer,True,confident
+لقد لاحظتُ بعض المعاملات المشبوهة على بطاقتي، وأخشى أن تكون بياناتها قد تعرضت للاختراق. أريد منع أي شخص من استخدامها فوراً.,block_card,0.9960663318634033,block_card,True,confident
+i want to pay my internet fees,bill_payment,0.9999873638153076,bill_payment,True,confident
+"RAAST, transfère 4 000 roupies à Bob",raast_fund_transfer,1.0000100135803223,raast_fund_transfer,True,confident
+کوئی مجھے یہ کھاتہ دوبارہ دوبارہ لکھنے سے بچائے، محفوظ کرنے کا کوئی طریقہ,show_list,0.9061801433563232,add_beneficiary,False,confident
+استلمتُ بطاقتي الجديدة اليوم، وأرغب في استخدامها للدفع والسحب. هل يمكنك مساعدتي في إعدادها؟,activate_card,0.9943073391914368,activate_card,True,confident
+i want to pay my internet fees and electricity bill,bill_payment,0.9997061491012573,bill_payment,True,confident
+Effectuer un virement RAAST de 4 000 roupies à Bob,raast_fund_transfer,1.0000096559524536,raast_fund_transfer,True,confident
+لسٹ دکھائیں، کن کن کو پہلے پیسے بھیجے تھے,show_list,0.9283027052879333,fund_transfer_history,False,confident
+أريد إرسال مبلغ مالي لشخص ما، لكنه لم يزودني برقم حسابه البنكي أو رقم الحساب المصرفي الدولي (IBAN). أرسل لي فقط رقم هاتفه المحمول وأخبرني أنه مسجل لدى راست. كيف يمكنني تحويل المبلغ؟,add_beneficiary,0.6392000317573547,raast_fund_transfer,False,confident
+effectuer un virement RAAST de 4 000 roupies à Bob,raast_fund_transfer,1.0000096559524536,raast_fund_transfer,True,confident
+combien d'argent j'ai dépensé aujourd'hui,balance_inquiry,0.5667092800140381,chat_agent,False,confident
+كنت أستكشف الإعدادات أمس وقمت بتغيير شيء ما عن طريق الخطأ. الآن، تظهر معظم الأزرار والقوائم والتعليمات بلغة لا أفهمها جيدًا. أحتاج إلى إعادة التطبيق إلى اللغة الإنجليزية حتى أتمكن من استخدامه بسهولة.,language_update,0.9493348002433777,language_update,True,confident
+À combien de personnes ai-je envoyé de l'argent ?,fund_transfer_history,0.9579740166664124,fund_transfer_history,True,confident
+كنت أستكشف الإعدادات أمس وقمت بتغيير شيء ما عن طريق الخطأ. الآن، تظهر معظم الأزرار والقوائم والتعليمات بلغة لا أفهمها جيدًا. أحتاج إلى إعادة التطبيق إلى اللغة الإنجليزية حتى أتمكن من استخدامه بسهولة.,language_update,0.9493348002433777,language_update,True,confident
+change app language to urdu,language_update,1.0000100135803223,language_update,True,confident
+ترغب والدتي في استخدام تطبيق البنك، لكنها تجد صعوبة في فهم اللغة الإنجليزية. هل هناك خيار لتغيير واجهة التطبيق بالكامل، بما في ذلك القوائم والتعليمات، إلى لغة تناسبها أكثر؟,language_update,0.9863471388816833,language_update,True,confident
+Quel est le récapitulatif de mes transactions de ce mois-ci ?,fund_transfer_history,0.9500774145126343,fund_transfer_history,True,confident
+"""card کی daily limit بڑھانی ہے""",activate_card,0.9873502850532532,bill_payment_history,False,confident
+Quel est le récapitulatif de mes transactions de ce mois-ci,fund_transfer_history,0.9500774145126343,fund_transfer_history,True,confident
+card کی daily limit بڑھانی ہے,activate_card,0.9873502850532532,chat_agent,False,confident
+"Hey can you please change the app language to Urdu, I find it easier to understand",language_update,1.0000098943710327,language_update,True,confident
+شخصٌ مدينٌ لي بمبلغٍ من المال، وقد أعطاني اسم حسابه المستعار (Raast) لإعادة المبلغ. عادةً ما أستخدم أرقام الحسابات عند تحويل الأموال، لذا فأنا محتارٌ بشأن الخيار الذي يجب عليّ اختياره لإرسال المال باستخدام هذا الاسم المستعار بدلاً من ذلك.,raast_fund_transfer,0.8478079438209534,raast_fund_transfer,True,confident
+Je souhaite régler les 60 000 frais de scolarité de mon fils,bill_payment,0.9999701976776123,bill_payment,True,confident
+"I don't know why but everything is showing in Urdu, can you switch it back to English for me",language_update,0.9998754262924194,language_update,True,confident
+سب کچھ اردو میں کر دیں پچھلی بار کنفیوژن میں غلط بندے کو پیسے چلے گئے تھے,language_update,0.9457217454910278,language_update,True,confident
+Is there a way to change the language settings in this app,language_update,1.0000100135803223,language_update,True,confident
+payer la facture d'électricité,bill_payment,0.9999946355819702,bill_payment,True,confident
+"Can you help me set the app to Urdu language, my mother uses this account too",language_update,1.0000064373016357,language_update,True,confident
+payer les frais de scolarité de mon frère,bill_payment,0.9999929666519165,bill_payment,True,confident
+"I want to change my app language, where do I find that option",language_update,0.9999951124191284,language_update,True,confident
+لقد زودني مالك العقار برقم حساب وطلب مني إيداع إيجار هذا الشهر مباشرةً في حسابه البنكي. ليس لدي أي بيانات دفع محفوظة له حتى الآن، لذا أحتاج إلى معرفة كيفية إرسال المبلغ عبر التحويل البنكي المعتاد.,,0.4263004958629608,bank_fund_transfer,False,uncertain
+"Please switch my app to English, I accidentally changed it to Urdu",language_update,1.0000090599060059,language_update,True,confident
+payer les frais de scolarité de mon frère,bill_payment,0.9999929666519165,bill_payment,True,confident
+How can I update the display language on my banking app,language_update,0.9999819993972778,language_update,True,confident
+"Hi I just realized my card is missing from my wallet, can you please block it right now",block_card,1.000007152557373,block_card,True,confident
+غلط بندے کو پیسے چلے گئے,block_card,0.9999147653579712,chat_agent,False,confident
+"Someone stole my bag and my debit card was inside, I need you to freeze it immediately",block_card,0.9998182654380798,block_card,True,confident
+قد يكون اتصال الإنترنت الخاص بي مقطوعًا لأنني لم أسدد رسوم هذا الشهر بعد. لديّ رصيد كافٍ في حسابي، وأريد فقط تسديد المبلغ المستحق لمزود الخدمة.,add_biller,0.9923627972602844,bill_payment,False,confident
+"I think my card details got leaked somewhere, can you block my card",block_card,1.0000100135803223,block_card,True,confident
+"My card is lost since yesterday and I forgot to report it, please block it now",block_card,0.9999897480010986,block_card,True,confident
+"Can you help me deactivate my card, I noticed some transactions I didn't make",block_card,0.999994158744812,block_card,True,confident
+دوست نے میرا بجلی کا بل بھرا تھا، اس کو پیسے واپس کر دیں,bill_payment,0.8926257491111755,chat_agent,False,confident
+À qui ai-je envoyé de l'argent aujourd'hui ?,fund_transfer_history,0.9982700943946838,fund_transfer_history,True,confident
+"I dropped my wallet somewhere and can't find my card, please suspend it before someone uses it",block_card,1.0000081062316895,block_card,True,confident
+خلال الأشهر القليلة الماضية، قمتُ بحفظ بيانات العديد من الأشخاص والحسابات لأنني أحوّل الأموال إليهم بشكل متكرر. الآن لا أتذكر تحديدًا أيّ الحسابات مسجلة بالفعل، وأريد مراجعة جميع البيانات التي قمتُ بحفظها سابقًا.,,0.44243380427360535,show_list,False,uncertain
+"My ATM card is not with me anymore, I need to block it urgently",block_card,1.0000100135803223,block_card,True,confident
+دوست  کو پیسے واپس کر دیں,raast_fund_transfer,0.9502263069152832,bank_fund_transfer,False,confident
+"Please freeze my debit card, I think it may have been stolen",block_card,1.0000067949295044,block_card,True,confident
+J'ai besoin d'une liste des personnes qui ont reçu de l'argent de ma part.,,0.36699241399765015,show_list,False,uncertain
+"I received my new debit card in the mail today, how do I activate it",activate_card,1.0000100135803223,activate_card,True,confident
+J'ai besoin d'une liste des personnes à qui j'ai versé de l'argent.,,0.4466257393360138,show_list,False,uncertain
+حوّلتُ أموالاً إلى عدة أشخاص مختلفين خلال الأسابيع القليلة الماضية، وأحتاج الآن إلى التأكد مما إذا كنت قد أرسلت مبلغاً معيناً لأحدهم. لا أتذكر التاريخ بالتحديد، لذا عليّ مراجعة سجل تحويلاتي المالية السابقة.,fund_transfer_history,0.9975045919418335,fund_transfer_history,True,confident
+"My old card expired and I got a replacement, can you tell me how to turn it on",activate_card,0.9976420402526855,activate_card,True,confident
+"I have a new card but it's not working at the shop, do I need to activate it first",activate_card,0.9990008473396301,activate_card,True,confident
+نمبر ڈالے بغیر پیسے کیسے بھیجوں account,bank_fund_transfer,0.974768877029419,raast_fund_transfer,False,confident
+Can you guide me through activating my newly issued card,activate_card,0.9999752044677734,activate_card,True,confident
+"I just got my card from the branch, what steps do I need to follow to activate it",activate_card,0.9994838833808899,activate_card,True,confident
+"My card is showing inactive, how can I get it working",activate_card,0.9999270439147949,activate_card,True,confident
+أريد إعادة ضبط لغتي,language_update,0.9302168488502502,language_update,True,confident
+I need help turning on my replacement card so I can start using it,activate_card,1.0000100135803223,activate_card,True,confident
+J'ai besoin d'un moyen permettant aux gens de scanner un code pour me payer,qr_code,1.000004768371582,qr_code,True,confident
+J'ai besoin d'un code QR,qr_code,1.0000100135803223,qr_code,True,confident
+زبان تو کوئی اور رکھ دو، یہ سمجھ نہیں آتی مجھے,language_update,0.9209352135658264,language_update,True,confident
+Comment puis-je scanner pour transférer de l'argent ?,qr_code,0.9983973503112793,qr_code,True,confident
+أنا أقف في متجر وطلبوا مني مسح رمز باستخدام هاتفي لإتمام عملية الدفع. كيف يمكنني استخدام ميزة الدفع عبر رمز الاستجابة السريعة (QR) في التطبيق؟,qr_code,0.9998822212219238,qr_code,True,confident
+J'ai besoin d'un code QR pour que les gens puissent m'envoyer de l'argent.,qr_code,1.0000100135803223,qr_code,True,confident
+پچھلے ہفتے کس کو کتنا دیا تھا، ذرا سامنے لاؤ,fund_transfer_history,0.9956292510032654,fund_transfer_history,True,confident
+J'ai besoin d'un code QR pour effectuer un virement bancaire.,qr_code,1.000009298324585,qr_code,True,confident
+"Maintenant, fais tourner la roue",spin_wheel,1.0000100135803223,spin_wheel,True,confident
+أرجو أن تخبرني كم تبرعت الأسبوع الماضي ولمن.,fund_transfer_history,0.9986026883125305,donation,False,confident
+"I want to send some money to my brother instantly using Raast, can you help me with that",raast_fund_transfer,0.9971230030059814,raast_fund_transfer,True,confident
+Can I transfer money through Raast using just his mobile number,raast_fund_transfer,0.9999701976776123,raast_fund_transfer,True,confident
+"I need to pay my friend urgently, is Raast the fastest way to send it",raast_fund_transfer,1.0000003576278687,raast_fund_transfer,True,confident
+سب لوگوں کے نام دکھاؤ جن کو پہلے رقم دی تھی,fund_transfer_history,0.9379353523254395,show_list,False,confident
+How do I send money using someone's Raast ID,raast_fund_transfer,0.9952910542488098,raast_fund_transfer,True,confident
+"I heard Raast transfers are instant, can you help me send 5000 rupees that way",raast_fund_transfer,0.9999679327011108,raast_fund_transfer,True,confident
+گیس والوں کا نام ہمیشہ کے لیے شامل کر دو تاکہ آسانی رہے,add_biller,0.7115515470504761,add_biller,True,confident
+"I want to transfer funds to my cousin through Raast, what details do I need",raast_fund_transfer,0.9996987581253052,raast_fund_transfer,True,confident
+Please help me make a quick payment using Raast,raast_fund_transfer,0.9999946355819702,raast_fund_transfer,True,confident
+"I need to transfer money directly to someone's bank account, can you help me do that",bank_fund_transfer,0.7758029699325562,bank_fund_transfer,True,confident
+Can you send 10000 rupees to this account number for me,bank_fund_transfer,0.9963712096214294,bank_fund_transfer,True,confident
+احفظ اسم ابن عمي حتى لا أضطر إلى كتابته مرة أخرى.,add_beneficiary,0.9843444228172302,add_beneficiary,True,confident
+I want to do a bank transfer using my friend's IBAN number,bank_fund_transfer,0.9913262128829956,bank_fund_transfer,True,confident
+"How do I transfer funds to another person's bank account, not through Raast",bank_fund_transfer,0.5053359270095825,bank_fund_transfer,True,confident
+Je voudrais effectuer un virement rapide via Raast,raast_fund_transfer,1.0000097751617432,raast_fund_transfer,True,confident
+I need to pay someone using their account number and bank name,add_beneficiary,0.9984614849090576,bank_fund_transfer,False,confident
+کل جو رقم بھیجی تھی وہ پہنچی کہ نہیں,fund_transfer_history,0.7353878021240234,fund_transfer_history,True,confident
+كيف يمكنني إرسال الأموال إلى شخص ما بدون رقم حساب؟,bank_fund_transfer,0.9780985713005066,bank_fund_transfer,True,confident
+Je souhaite effectuer un transfert rapide via Raast.,raast_fund_transfer,1.0000064373016357,raast_fund_transfer,True,confident
+Can you help me complete an IBFT transfer to my brother's account,bank_fund_transfer,0.9997032880783081,bank_fund_transfer,True,confident
+I want to send money to a bank account I haven't used before,bank_fund_transfer,0.9728413820266724,bank_fund_transfer,True,confident
+Can you help me pay my electricity bill before the due date,bill_payment,0.9998958110809326,bill_payment,True,confident
+"I need to clear my gas bill this month, can you do that for me",bill_payment,1.0000056028366089,bill_payment,True,confident
+لا أتذكر الحساب الذي أرسلت إليه المال في المرة الماضية، أين يمكنني الحصول على تلك التفاصيل؟,,0.419948011636734,fund_transfer_history,False,uncertain
+"My son's school fee is due, can I pay it through this app",bill_payment,0.999349057674408,bill_payment,True,confident
+یہ نیا کارڈ استعمال نہیں رہا، کیوں,activate_card,0.9180868864059448,activate_card,True,confident
+یہ نیا کارڈ استعمال کیوں,activate_card,1.0000100135803223,chat_agent,False,confident
+یہ نیا کارڈ استعمال کیوں کروں,activate_card,1.0000100135803223,chat_agent,False,confident
+Je souhaite faire un don de 50 000 roupies à Child Funds.,donation,0.9983423352241516,donation,True,confident
+Je souhaite faire un don de 50 000 roupies à Child Funds.,donation,0.9983423352241516,donation,True,confident
+Je veux donner 50 000 roupies aux réfugiés.,raast_fund_transfer,0.9656848907470703,donation,False,confident
+سب پرانیtransaction کا ریکارڈ دکھاؤ,fund_transfer_history,0.9978277683258057,show_list,False,confident
+Je veux donner 50 000 roupies aux immigrés.,raast_fund_transfer,0.724556028842926,donation,False,confident
+Je veux donner 50 000 roupies aux immigrés.,raast_fund_transfer,0.724556028842926,donation,False,confident
+إذا لم يكن لدى الشخص الذي أمامك رقم حساب، فهل يمكن إرسال الأموال باستخدام الاسم فقط؟,qr_code,0.8717683553695679,bank_fund_transfer,False,confident
+سب پرانی ادائیگیوں کا ریکارڈ دکھاؤ,bill_payment_history,0.7465913891792297,bill_payment_history,True,confident
+Je veux donner 50 000 roupies aux riches.,raast_fund_transfer,0.8852603435516357,donation,False,confident
+ما هو المبلغ الأكبر الذي تم إنفاقه على البطاقة خلال العام؟,block_card,0.9021931290626526,chat_agent,False,confident
+یہ نیا کارڈ ابھی استعمال نہیں ہو رہا، کیا کرنا پڑے گا,activate_card,0.9568889141082764,activate_card,True,confident
+Combien de factures j'ai payées ce mois-ci,bill_payment_history,1.0000100135803223,bill_payment_history,True,confident
+هل استلم الشخص الذي أرسلت له المال قبل يومين المبلغ أم لا؟,qr_code,0.9572284817695618,fund_transfer_history,False,confident
+ابھی کھاتے میں کتنی رقم موجود ہے,balance_inquiry,0.9174439907073975,balance_inquiry,True,confident
+Combien de factures j'ai payées ce mois-ci,bill_payment_history,1.0000100135803223,bill_payment_history,True,confident
+کارڈ کہیں گر گیا ہے، کوئی اور استعمال نہ کر لے، جلدی کچھ کرو,block_card,0.5504014492034912,block_card,True,confident
+i want to download my acount mantainance certificate,generate_amc,1.000008225440979,generate_amc,True,confident
+کل شام کو جو رقم گئی تھی، پہنچی یا رکی ہوئی ہے,raast_fund_transfer,0.9831031560897827,fund_transfer_history,False,confident
+i want to download my account certificate,generate_amc,1.0000097751617432,generate_amc,True,confident
+دکان کے کاؤنٹر پر لگانے والی چیز چاہیے پیسے لینے کے لیے,,0.37162336707115173,qr_code,False,uncertain
+i want to download my account certificate for embassy,generate_amc,1.0000097751617432,generate_amc,True,confident
+کارڈ کا پورا سالانہ خلاصہ چاہیے مجھے,block_card,0.9732403755187988,generate_amc,False,confident
+i want to donate money to welfare how can i donate it,donation,0.9999617338180542,donation,True,confident
+i want to donate money to small childrens,donation,0.9978116154670715,donation,True,confident
+i want to give money to welfare trusts,donation,0.9727909564971924,donation,True,confident
+أعطني قائمة بأسماء الأشخاص الذين أرسلت لهم أموالاً في الأشهر الثلاثة الماضية.,fund_transfer_history,0.9881084561347961,fund_transfer_history,True,confident
+i want to give zakat to needy peoples,donation,0.9999616146087646,donation,True,confident
+i want to spin a wheel,spin_wheel,1.0000100135803223,spin_wheel,True,confident
+سکول والوں کا نمبر محفوظ کرنا ہے تاکہ ہر بار فیس آسانی سے جائے,add_biller,0.9129617810249329,add_beneficiary,False,confident
+i want to spin a wheel and win exciting prices,spin_wheel,1.000009536743164,spin_wheel,True,confident
+هل وصلت الأموال التي أرسلتها أمس إلى وجهتها أم أنك ما زلت تشرب الشاي في الطريق؟,fund_transfer_history,0.8179916143417358,fund_transfer_history,True,confident
+i want to generate my qr code soo everyone can easily pay it by scanning it,qr_code,1.0000100135803223,qr_code,True,confident
+Enregistrez les informations de Bob.,add_biller,0.9943558573722839,add_beneficiary,False,confident
+"بھی رکھتا ہے اور نمبر بھی دیتا ہے"" QR دکان والے کو رقم دینی ہے، وہ",qr_code,0.9355862140655518,qr_code,True,confident
+لقد أنفقت الكثير على البطاقة هذا العام لدرجة أنني أشعر بالخوف، أرني الحساب الكامل.,balance_inquiry,0.5609336495399475,balance_inquiry,True,confident
+my friend ask me to give qr code to them how i can make it,qr_code,1.0000097751617432,qr_code,True,confident
+enregistrer les informations concernant Bob,add_biller,0.9848712682723999,add_beneficiary,False,confident
+چکر گھمانا ہے پر پہلے یہ بتاؤ کھاتے میں کتنا بچا ہے,spin_wheel,0.854533314704895,balance_inquiry,False,confident
+enregistrer les informations concernant Benjamin,add_biller,0.8708459138870239,add_beneficiary,False,confident
+enregistrer les coordonnées de Benjamin pour faciliter les futurs virements,add_biller,0.640598714351654,activate_card,False,confident
+i need  a qr code so my friend easily send money,qr_code,1.0000100135803223,qr_code,True,confident
+enregistrer Bilal pour faciliter les transferts futurs,add_beneficiary,0.7985371351242065,add_beneficiary,True,confident
+احفظ اسم ابن عمي، ففي كل مرة أكتب فيها الاسم، تتضرر العلاقة.,generate_amc,0.919051468372345,add_beneficiary,False,confident
+enregistrer Bilal comme bénéficiaire,add_beneficiary,1.0000089406967163,add_beneficiary,True,confident
+can u tell me how much money i have in my bank account,balance_inquiry,1.0000075101852417,balance_inquiry,True,confident
+لا أملك رقم الحساب، كل ما أتذكره هو اسم الشخص وهيئته. كيف يمكنني إرسال المال الآن؟,,0.4778216779232025,bank_fund_transfer,False,uncertain
+Ajouter Bilal comme bénéficiaire,add_beneficiary,1.0000100135803223,add_beneficiary,True,confident
+what is the current balance,balance_inquiry,0.9992628693580627,balance_inquiry,True,confident
+how many rupees in my bank account,balance_inquiry,0.9282514452934265,balance_inquiry,True,confident
+أخبرني كيف أدفع فواتير الكهرباء أو الماء أو الغاز باستخدام الخدمات المصرفية عبر الهاتف المحمول.,add_biller,0.6442855596542358,bill_payment,False,confident
+can u show me my available balance,balance_inquiry,1.0000100135803223,balance_inquiry,True,confident
+جس کو میں نے دو دن پہلے پیسے بھیجے تھے، اس نے وصول کیے یا نہیں,fund_transfer_history,0.9261521100997925,fund_transfer_history,True,confident
+J'aimerais faire un don,donation,0.9999974966049194,donation,True,confident
+J'aime faire un don pour une bonne cause,donation,1.0000004768371582,donation,True,confident
+i forget how much money in my bank account can u check,balance_inquiry,0.9999897480010986,balance_inquiry,True,confident
+اکاؤنٹ نمبر نہیں ہے صرف بندے کا نام اور شکل یاد ہے اب پیسے کیسے بھیجوں؟,add_beneficiary,0.8843246698379517,bank_fund_transfer,False,confident
+إلى من بين الأشخاص الذين أحميهم يجب أن أرسل أكبر قدر من المال؟ أجب بتأنٍّ.,raast_fund_transfer,0.6070480346679688,chat_agent,False,confident
+payer les frais d'Internet demain,bill_payment,0.999789297580719,bill_payment,True,confident
+prévoir le paiement des frais d'Internet pour demain,bill_payment_history,0.9499282240867615,bill_payment,False,confident
+programmer le paiement de la facture Internet d'ici demain,bill_payment,0.9605173468589783,bill_payment,True,confident
+زبان بدلنے سے پہلے یہ بتاؤ گیس کا بل کہاں سے دوں,bill_payment,0.9963921308517456,bill_payment,True,confident
+"""أحضروا كل من أرسلتم إليهم المال، فاليوم هو يوم الحساب.""",,0.46433478593826294,fund_transfer_history,False,uncertain
+how i can unlock the spin wheel reward feature,spin_wheel,0.9998871088027954,spin_wheel,True,confident
+programmer le paiement de la facture Internet d'ici demain,bill_payment,0.9605173468589783,bill_payment,True,confident
+i want to try my luck in thespin wheel,spin_wheel,1.0000100135803223,spin_wheel,True,confident
+enregistrer toutes les transactions de la semaine dernière,fund_transfer_history,0.999472439289093,chat_agent,False,confident
+Afficher toutes les transactions de la semaine dernière,fund_transfer_history,1.000009298324585,show_list,False,confident
+Je souhaite obtenir tous les formulaires de transaction de la semaine dernière.,fund_transfer_history,0.8974066376686096,show_list,False,confident
+جن جن کو پیسے بھیجے تھے سب کو سامنے لاؤ، آج حساب کتاب کا دن ہے,bank_fund_transfer,0.9807925820350647,fund_transfer_history,False,confident
+حساب کتاب,balance_inquiry,0.9938904047012329,chat_agent,False,confident
+tourner,spin_wheel,1.0000100135803223,chat_agent,False,confident
+jouer,spin_wheel,1.0000100135803223,chat_agent,False,confident
+أين يجب أن أدفع فاتورة المياه؟ عندما سألت الصنبور، لم يُجب.,,0.48645853996276855,bill_payment,False,uncertain
+bloquer ma carte,block_card,1.0000100135803223,block_card,True,confident
+نیک کام کے لیے وہی پرانا طریقہ چاہیے جو پچھلی بار استعمال کیا تھا,qr_code,0.5020051002502441,donation,False,confident
+garde ma carte,block_card,0.5044378042221069,block_card,True,confident
+"""بطاقتي الجديدة لا تعمل، هل أفعل شيئًا خاطئًا أم أن البطاقة لا تعمل؟""",activate_card,0.9350294470787048,activate_card,True,confident
+Ajouter Nayatel comme nouvel émetteur de factures,add_biller,1.0000098943710327,add_biller,True,confident
+Ajouter PTCL comme nouvel émetteur de factures,add_biller,1.0000100135803223,add_biller,True,confident
+Ajouter PTCL,add_biller,0.9999758005142212,add_biller,True,confident
+اذكر جميع الأشخاص الذين أرسلت لهم أموالاً من قبل. قد يكون هناك مستفيدون لا أتذكر حتى أنني ادخرت لهم.,add_beneficiary,0.5523586869239807,fund_transfer_history,False,confident
+Ajouter PTCL pour les factures,add_biller,1.0000100135803223,add_biller,True,confident
+ajouter le code PTCL pour les factures,add_biller,0.9998410940170288,add_biller,True,confident
+أريد إزالة أحد المستفيدين، ولكن هل سيؤدي حذفه أيضاً إلى حذف سجل معاملاتي السابقة؟,add_beneficiary,0.5563255548477173,chat_agent,False,confident
+أحتاج إلى سجل معاملات بطاقتي بالكامل من العام الماضي وحتى الآن. أرجو عدم إغفال أي شيء.,generate_amc,0.7522256374359131,bill_payment_history,False,confident
+الأموال التي حولتها أمس تظهر في مكان ما، لكن الشخص الذي أرسلتها إليه يقول إنها لم تصل.,fund_transfer_history,0.8541446924209595,fund_transfer_history,True,confident
+يبدو أن عملية التحويل قد اكتملت من جهتي، فلماذا لا يزال المستلم ينتظر؟,qr_code,0.8263543248176575,fund_transfer_history,False,confident
+i want to review my balance,balance_inquiry,1.0000096559524536,balance_inquiry,True,confident
+want to make my own qr code,qr_code,1.0000100135803223,qr_code,True,confident
+lets create another biller,add_biller,1.0000100135803223,add_biller,True,confident
+want to link my another account,add_beneficiary,0.6211528778076172,add_beneficiary,True,confident
+Quel est le solde restant sur mon compte ?,balance_inquiry,1.0000051259994507,balance_inquiry,True,confident
+change language to spanish,language_update,1.0000100135803223,language_update,True,confident
+Quel est mon solde actuel ?,balance_inquiry,1.0000098943710327,balance_inquiry,True,confident
+indiquez-moi mon solde actuel,balance_inquiry,1.0000096559524536,balance_inquiry,True,confident
+my atm pin has been leaked so want to deactive it,block_card,1.0000016689300537,block_card,True,confident
+my atm card has been expired want a new one,block_card,0.563902735710144,activate_card,False,confident
+i want to send money through my rastid,raast_fund_transfer,0.9870525598526001,raast_fund_transfer,True,confident
+i want to send money through my rastid,raast_fund_transfer,0.9870525598526001,raast_fund_transfer,True,confident
+i want to send money through my raast,raast_fund_transfer,1.0000100135803223,raast_fund_transfer,True,confident
+want to pay my school fee,bill_payment,1.0000100135803223,bill_payment,True,confident
+"my atm is not working correctly , i want a new one",activate_card,0.8824672698974609,chat_agent,False,confident
+"J'ai du mal à comprendre certains de ces termes bancaires techniques en anglais ; pourriez-vous, s'il vous plaît, basculer immédiatement toute l'interface de l'application en ourdou afin que je puisse mieux naviguer dans mes paramètres ?",language_update,0.9752100110054016,language_update,True,confident
+my atm has been stolen so dimissed it,block_card,0.9994097948074341,block_card,True,confident
+"J'ai du mal à comprendre certains de ces termes bancaires techniques en anglais ; pourriez-vous, s'il vous plaît, basculer immédiatement l'ensemble de l'interface de mon application en ourdou afin que je puisse mieux naviguer dans mes paramètres ?",language_update,0.9406035542488098,language_update,True,confident
+my atm has been stolen so dimissed/suspend it,block_card,1.0000053644180298,block_card,True,confident
+"Je crois avoir oublié mon portefeuille dans un taxi en rentrant chez moi, et je constate maintenant l'apparition de micro-transactions suspectes. Je dois immédiatement bloquer ma carte de débit Visa principale (se terminant par 4821) avant que d'autres fonds ne soient volés.",block_card,0.9686864614486694,block_card,True,confident
+"Je crois avoir oublié mon portefeuille dans un taxi en rentrant chez moi, et je constate maintenant l'apparition de micro-transactions suspectes. Je dois immédiatement bloquer ma carte de débit Visa principale (se terminant par 4821) avant que d'autres fonds ne soient volés.",block_card,0.9686864614486694,block_card,True,confident
+"Je pense avoir oublié mon portefeuille dans un taxi en rentrant chez moi, et je constate maintenant l'apparition de micro-transactions suspectes. Je dois immédiatement bloquer ma carte de débit Visa principale, dont le numéro se termine par 4821, avant que d'autres sommes ne soient volées.",block_card,0.9803773164749146,block_card,True,confident
+Le coursier vient de me livrer aujourd'hui le colis contenant ma nouvelle carte de remplacement Platinum Mastercard. Sur quoi dois-je appuyer ou que dois-je saisir ici pour activer cette nouvelle carte et la rendre prête pour les achats en ligne ?,activate_card,0.9997532963752747,activate_card,True,confident
+Le livreur vient de me remettre aujourd'hui mon nouveau colis contenant ma nouvelle carte Mastercard Platinum de remplacement. Que dois-je faire ici pour activer cette nouvelle carte et pouvoir l'utiliser pour mes achats en ligne ?,activate_card,0.9999680519104004,activate_card,True,confident
+"Je dois envoyer de toute urgence 15 000 PKR à mon frère en utilisant son numéro de mobile comme alias via le réseau de paiement instantané Raast, plutôt que par un virement bancaire classique, afin que la transaction soit réglée immédiatement.",raast_fund_transfer,0.9644055962562561,raast_fund_transfer,True,confident
+"Je dois envoyer de toute urgence 15 000 PKR à mon frère en utilisant son numéro de portable (alias) via le réseau de paiement instantané Raast, plutôt que par virement bancaire classique, afin que le paiement soit effectué immédiatement.",raast_fund_transfer,0.9350188970565796,raast_fund_transfer,True,confident
+Veuillez effectuer un virement IBFT de 45 000 PKR vers le compte Meezan Bank de mon propriétaire. Son IBAN est PK36MEZN0001234567890102 et le motif du virement est le loyer mensuel.,bank_fund_transfer,0.9993011951446533,bank_fund_transfer,True,confident
+Veuillez effectuer un virement IBFT d'un montant de 45 000 PKR sur le compte de mon propriétaire auprès de la Meezan Bank. Son IBAN est le suivant : PK36MEZN0001234567890102. Le motif du virement est « loyer mensuel ».,bank_fund_transfer,0.9890167713165283,bank_fund_transfer,True,confident
+"Ma connexion Internet va être coupée ce soir ! Pouvez-vous régler ma facture Nayatel de 4 500 PKR, correspondant au numéro de client 1009876543, directement depuis mon compte courant principal ?",bill_payment,0.8955271244049072,bill_payment,True,confident
+Ma connexion internet risque d'être coupée ce soir ! Pouvez-vous régler ma facture d'accès à Internet Nayatel de 4 500 PKR — en utilisant le numéro de client 1009876543 — directement depuis mon compte courant principal ?,bill_payment,0.7574697136878967,bill_payment,True,confident
+my atm  card has been stolen so suspend it or block it,block_card,1.0000100135803223,block_card,True,confident
+my atm  card has been stolen so deactivate it,block_card,1.0000094175338745,block_card,True,confident
+"J'essaie de faire le tri dans les paramètres de mon application. Pourriez-vous afficher tous les bénéficiaires, émetteurs de factures et comptes bénéficiaires liés que j'ai enregistrés, afin que je puisse voir qui est actuellement inscrit ?",show_list,0.990847647190094,show_list,True,confident
+my atm  card has been stolen so suspend it,block_card,1.0000100135803223,block_card,True,confident
+"J'essaie de faire le tri dans les paramètres de mon application. Pourriez-vous m'afficher tous mes bénéficiaires, émetteurs de factures et comptes bénéficiaires liés enregistrés afin que je puisse voir qui est actuellement enregistré ?",show_list,0.9972091913223267,show_list,True,confident
+Pouvez-vous retrouver l'historique de mes virements du mois dernier ? Je dois vérifier quel montant j'ai envoyé à Usman entre le 1er et le 15 août pour les frais de notre voyage en commun.,fund_transfer_history,0.9968263506889343,fund_transfer_history,True,confident
+Pourriez-vous me fournir l'historique de mes virements du mois dernier ? J'ai besoin de vérifier combien d'argent j'ai envoyé à Usman entre le 1er et le 15 août pour nos frais de voyage communs.,fund_transfer_history,0.9837706089019775,fund_transfer_history,True,confident
+"J'ai rendez-vous demain matin à l'ambassade pour ma demande de visa Schengen et j'ai besoin d'une attestation officielle de tenue de compte, portant le cachet de la banque, générée et envoyée par e-mail au format PDF.",generate_amc,0.9963547587394714,generate_amc,True,confident
+"J'ai rendez-vous demain matin à l'ambassade pour ma demande de visa Schengen et j'ai besoin d'un certificat officiel de gestion de compte, muni du cachet de la banque, qui me soit envoyé par e-mail au format PDF.",generate_amc,0.9993680119514465,chat_agent,False,confident
+"Je viens de souscrire un nouvel abonnement postpayé chez Jazz. Comment puis-je enregistrer un nouveau fournisseur de services (facture de services publics) sur mon compte en utilisant le numéro 03001234567, afin de pouvoir régler la facture automatiquement chaque mois ?",add_biller,0.9947568774223328,add_biller,True,confident
+"Je viens de souscrire un nouvel abonnement postpayé chez Jazz. Comment puis-je enregistrer un nouveau prestataire de services publics sur mon compte, en utilisant le numéro de client 03001234567, afin de pouvoir régler ma facture automatiquement chaque mois ?",add_biller,0.924885630607605,add_biller,True,confident
+نیک کام کے لیے وہی پرانا طریقہ چاہیے جو پچھلی بار استعمال کیا تھا,qr_code,0.5020051002502441,donation,False,confident
+Je souhaite enregistrer les coordonnées bancaires de mon collègue pour de futurs paiements. Veuillez ajouter un nouveau bénéficiaire pour le compte HBL n° 00427901234503 au nom de « Zubair Ahmed ».,add_beneficiary,0.9986528754234314,add_beneficiary,True,confident
+Reset language settings to default,language_update,1.000009536743164,language_update,True,confident
+Je souhaite enregistrer les coordonnées bancaires de mon collègue pour de futurs paiements. Veuillez ajouter un nouveau bénéficiaire pour le compte HBL n° 00427901234503 au nom de « Zubair Ahmed ».,add_beneficiary,0.9986528754234314,add_beneficiary,True,confident
+Je souhaite régler ma Zakat annuelle d'un montant de 25 000 PKR. Pouvez-vous verser ce don sur le compte de la Fondation Edhi enregistré dans le portail caritatif de l'application ?,donation,0.9026443958282471,donation,True,confident
+"Je souhaiterais m'acquitter de mon obligation annuelle de zakat, d'un montant de 25 000 PKR. Pouvez-vous verser ce don sur le compte de la Fondation Edhi enregistré dans la rubrique « Œuvres caritatives » de l'application ?",donation,0.9332995414733887,donation,True,confident
+App ki zaban tabdeel karni hai,language_update,0.9469260573387146,language_update,True,confident
+J'ai reçu une notification indiquant que j'avais gagné un tour pour une récompense quotidienne après avoir réglé ma facture. Où puis-je accéder à la roue de la chance dans l'application pour récupérer mes points de récompense ?,spin_wheel,0.9862000942230225,spin_wheel,True,confident
+J'ai vu une notification m'indiquant que j'avais gagné un tour de roue quotidien après avoir réglé ma facture. Où puis-je accéder à la roue de la chance dans l'application pour récupérer mes points de récompense ?,spin_wheel,0.9932901263237,spin_wheel,True,confident
+How do I set the app to Urdu?,language_update,1.0000100135803223,language_update,True,confident
+"Je suis actuellement à une caisse. Je dois scanner le QR code du commerçant sur le terminal pour payer mes courses, ou présenter mon propre QR code dynamique pour qu'il soit scanné.",qr_code,1.0000100135803223,qr_code,True,confident
+"Je me trouve actuellement à la caisse. Je dois scanner le code QR du commerçant affiché sur le terminal pour régler mes courses, ou présenter mon propre code QR dynamique pour qu'il soit scanné.",qr_code,1.0000098943710327,qr_code,True,confident
+"Avant de finaliser cet achat en ligne, pouvez-vous vérifier le solde disponible de mon compte chèque et m'indiquer le plafond actuel de ma carte de crédit ?",balance_inquiry,0.9984656572341919,balance_inquiry,True,confident
+"My ATM card has been stolen, please block it",block_card,1.0000100135803223,block_card,True,confident
+"Avant de finaliser cet achat en ligne, pourriez-vous vérifier le solde actuel de mon compte courant et m'indiquer la limite de crédit disponible sur ma carte bancaire ?",balance_inquiry,0.9672453999519348,balance_inquiry,True,confident
+Freeze my debit card immediately,block_card,1.0000100135803223,block_card,True,confident
+"J'ai perdu ma carte se terminant par 1102 ; veuillez donc la bloquer immédiatement, mais dites-moi d'abord quel est le solde restant de mon compte afin que je sache si de l'argent a été prélevé.",block_card,0.9863063097000122,block_card,True,confident
+"J'ai perdu ma carte dont le numéro se termine par 1102 ; veuillez donc la bloquer immédiatement, mais dites-moi d'abord quel est le solde restant sur mon compte afin que je sache si de l'argent a été prélevé.",block_card,0.9942864775657654,block_card,True,confident
+"I received a replacement card, how do I enable it?",activate_card,1.0000100135803223,activate_card,True,confident
+J'ai du mal à comprendre tous ces termes bancaires techniques en anglais ; pourriez-vous s'il vous plaît passer toute l'interface de mon application en ourdou dès maintenant afin que je puisse mieux naviguer dans mes paramètres ?,language_update,0.9936698079109192,language_update,True,confident
+"Je pense avoir oublié mon portefeuille dans un taxi en rentrant du travail, et je vois des micro-transactions suspectes apparaître. J'ai besoin de bloquer immédiatement ma carte de débit Visa principale se terminant par 4821 avant qu'on ne me vole d'autre argent.",block_card,0.9591723084449768,block_card,True,confident
+Le livreur vient de me remettre le pli contenant ma nouvelle carte Mastercard Platinum de remplacement aujourd'hui. Sur quoi dois-je appuyer ou qu'est-ce que je dois saisir ici pour activer cette nouvelle carte et la rendre prête pour mes achats en ligne ?,activate_card,0.9998202919960022,activate_card,True,confident
+"Je dois envoyer d'urgence 15 000 PKR à mon frère en utilisant son numéro de mobile via le réseau de paiement instantané Raast plutôt que par un virement bancaire classique, afin que le règlement soit immédiat.",raast_fund_transfer,0.9718690514564514,raast_fund_transfer,True,confident
+Turn on my newly issued credit card,activate_card,0.9964069724082947,activate_card,True,confident
+Veuillez initier un virement IBFT de 45 000 PKR vers le compte Meezan Bank de mon propriétaire. Son IBAN est PK36MEZN0001234567890102 et le motif du transfert est le loyer mensuel.,bank_fund_transfer,0.9997012615203857,bank_fund_transfer,True,confident
+Mon accès Internet risque d'être coupé ce soir ! Pouvez-vous payer ma facture d'Internet haut débit Nayatel de 4 500 PKR en utilisant le numéro client 1009876543 directement depuis mon compte courant principal,bill_payment,0.7018424272537231,bill_payment,True,confident
+"J'essaie de faire du tri dans les paramètres de mon application. Pourriez-vous afficher la liste de tous mes bénéficiaires enregistrés, mes émetteurs de factures et mes comptes liés afin que je puisse voir qui est actuellement inscrit ?",show_list,0.999332070350647,show_list,True,confident
+"I forgot to pay my internet bill last week, can you help me pay it now",bill_payment,0.999889612197876,bill_payment,True,confident
+Send Rs. 5000 to my brother via Raast,raast_fund_transfer,1.0000100135803223,raast_fund_transfer,True,confident
+Pouvez-vous afficher l'historique de mes virements du mois dernier ? Je dois vérifier combien d'argent j'ai envoyé à Usman entre le 1er et le 15 août pour nos dépenses de voyage partagées.,fund_transfer_history,0.9997431635856628,fund_transfer_history,True,confident
+Can you pay my mobile phone bill for me please,bill_payment,0.9999330043792725,bill_payment,True,confident
+je dois vérifier si ma facture d'électricité K-Electric a bien été payée le mois dernier. Affichez-moi la liste de toutes les factures de services publics payées depuis ce compte au cours des 60 derniers jours.,bill_payment_history,0.9995618462562561,bill_payment_history,True,confident
+I need to settle my credit card bill this week,bill_payment,1.000001072883606,bill_payment,True,confident
+J'ai un rendez-vous à l'ambassade demain matin pour ma demande de visa Schengen et j'ai besoin qu'un certificat de tenue de compte (AMC) officiel avec le tampon de la banque soit généré et envoyé sur mon e-mail au format PDF.,generate_amc,0.9998855590820312,generate_amc,True,confident
+"My water bill is overdue, can you help me pay it right away",bill_payment,1.0000053644180298,bill_payment,True,confident
+Instant transfer to this mobile number via Raast,raast_fund_transfer,1.0000100135803223,raast_fund_transfer,True,confident
+Je viens de souscrire un nouvel abonnement mobile chez Jazz. Comment ajouter un nouvel émetteur de facture sous mon compte en utilisant le numéro client 03001234567 afin de pouvoir le payer automatiquement chaque mois ?,add_biller,0.9872555732727051,add_biller,True,confident
+Je viens de souscrire un nouvel abonnement mobile chez Jazz. Comment ajouter un nouvel émetteur de facture sous mon compte en utilisant le numéro client 03001234567 afin de pouvoir le payer automatiquement chaque mois ?,add_biller,0.9872555732727051,add_biller,True,confident
+Pay my friend using their Raast alias,raast_fund_transfer,1.0000089406967163,raast_fund_transfer,True,confident
+Je souhaite enregistrer les coordonnées bancaires de mon collègue pour de futurs paiements. Veuillez ajouter un nouveau bénéficiaire pour le compte HBL numéro 00427901234503 au nom de « Zubair Ahmed ».,add_beneficiary,0.9993693232536316,add_beneficiary,True,confident
+Je souhaite verser ma contribution annuelle pour la Zakat d'un montant de 25 000 PKR. Pouvez-vous diriger ce don vers le compte de la Fondation Edhi répertorié dans le portail de dons de l'application ?,donation,0.9973482489585876,donation,True,confident
+Can you show me the list of people I've saved as beneficiaries,show_list,0.9999281167984009,show_list,True,confident
+J'ai vu une notification indiquant que j'avais gagné un tirage au sort quotidien après avoir payé ma facture. Où puis-je accéder à la roue de la fortune dans l'application pour réclamer mes points de récompense ?,spin_wheel,0.8476777672767639,spin_wheel,True,confident
+I want to see all the billers I've added on my account,show_list,0.843410849571228,show_list,True,confident
+"Je suis actuellement à la caisse d'un magasin. J'ai besoin de scanner le code QR du commerçant sur le terminal pour payer mes courses, ou d'afficher mon propre code QR dynamique pour qu'il puisse le scanner.",qr_code,1.0000098943710327,qr_code,True,confident
+Can you pull up my saved cards list,show_list,1.0000100135803223,show_list,True,confident
+"Avant de finaliser cet achat en ligne, pouvez-vous vérifier le solde disponible sur mon compte courant et m'afficher le plafond actif de ma carte de crédit ?",balance_inquiry,0.9976596236228943,balance_inquiry,True,confident
+I need to check which accounts I've linked to this app,show_list,0.9610509276390076,show_list,True,confident
+"Au fait, je me prépare à sortir dîner avec des amis. Est-ce que tu pourrais m'afficher l'historique de mes derniers virements pour voir combien j'ai payé pour le restaurant la semaine dernière ?",fund_transfer_history,0.7486730813980103,fund_transfer_history,True,confident
+Can you show me my saved payees so I can send money quickly,show_list,0.9999232292175293,show_list,True,confident
+"Transfer Rs. 10,000 to account number 01234567890",bank_fund_transfer,0.9996380805969238,bank_fund_transfer,True,confident
+"I forgot who I added as a beneficiary, can you list them for me",add_beneficiary,0.8305103182792664,show_list,False,confident
+Show me all my saved billers please,show_list,1.000009536743164,show_list,True,confident
+چچا کے اکاؤنٹ نمبر پر رقم بھیجنی ہے,add_beneficiary,0.7482950091362,bank_fund_transfer,False,confident
+Can you show me all the transfers I made last month,fund_transfer_history,0.9999979734420776,fund_transfer_history,True,confident
+I am bored,generate_amc,0.8481842875480652,chat_agent,False,confident
+I am bored,generate_amc,0.8481842875480652,chat_agent,False,confident
+I want to check how much money I sent to my brother recently,fund_transfer_history,0.9957960247993469,fund_transfer_history,True,confident
+Send money to this IBAN via IBFT,bank_fund_transfer,1.0000100135803223,bank_fund_transfer,True,confident
+Can you pull up my transaction history for the past week,fund_transfer_history,1.0000065565109253,fund_transfer_history,True,confident
+I need to see a record of all the transfers I've done this year,fund_transfer_history,0.9994410872459412,fund_transfer_history,True,confident
+دوست کے بینک کھاتے میں 20 ہزار ڈالنے ہیں,bank_fund_transfer,0.9999741315841675,bank_fund_transfer,True,confident
+Show me the list of people I've sent money to before,show_list,0.8411874175071716,show_list,True,confident
+language update,language_update,1.0000100135803223,language_update,True,confident
+language update,language_update,1.0000100135803223,language_update,True,confident
+I want to check when I last sent money to my friend,fund_transfer_history,1.000009536743164,fund_transfer_history,True,confident
+Meri bhai ke bank account mein paise transfer karo,bank_fund_transfer,0.9896372556686401,bank_fund_transfer,True,confident
+Can you show me my transfer history between last month and this month,fund_transfer_history,1.000009536743164,fund_transfer_history,True,confident
+Can you show me a record of all the bills I've paid so far,bill_payment_history,0.9944673776626587,bill_payment_history,True,confident
+I want to check my transactions,fund_transfer_history,1.0000065565109253,show_list,False,confident
+پر پیسے منتقل کرنے ہیں کسی کے  IBAN,bank_fund_transfer,1.0000096559524536,bank_fund_transfer,True,confident
+I want to check which bills I paid last month,bill_payment_history,1.0000097751617432,bill_payment_history,True,confident
+Can you show me my electricity bill payment history,bill_payment_history,1.0000097751617432,bill_payment_history,True,confident
+I am bored,generate_amc,0.8481842875480652,chat_agent,False,confident
+I need to see when I last paid my internet bill,bill_payment_history,0.9999874830245972,bill_payment_history,True,confident
+Kya main Raast se abhi paise transfer kar sakta hoon?,raast_fund_transfer,1.0000088214874268,raast_fund_transfer,True,confident
+"Show me a list of all my past bill payments please
+I want to check if I already paid my school fee this month",bill_payment_history,0.9999250173568726,bill_payment_history,True,confident
+I want to check if I already paid my school fee this month,bill_payment_history,0.9781768321990967,bill_payment_history,True,confident
+Can you pull up my bill payment records for the last three months,bill_payment_history,0.9999681711196899,bill_payment_history,True,confident
+I want to add my electricity company as a biller so I can pay bills easily next time,add_biller,1.0000097751617432,add_biller,True,confident
+Can you help me register my gas provider as a new biller,add_biller,1.0000100135803223,add_biller,True,confident
+I need to add my internet company to my billers list,add_biller,1.0000100135803223,add_biller,True,confident
+How do I add a new biller for my mobile bill payments,add_biller,1.0000100135803223,add_biller,True,confident
+Can you set up my school as a biller so I can pay fees through the app,add_biller,0.999902606010437,add_biller,True,confident
+Can you set up my school as a biller so I can pay fees through the app,add_biller,0.999902606010437,add_biller,True,confident
+Please help me register a new biller account for my utility bills,add_biller,1.0000100135803223,add_biller,True,confident
+Pay my electricity bill,bill_payment,1.0000098943710327,bill_payment,True,confident
+I need to pay my Jazz mobile bill,bill_payment,1.0000097751617432,bill_payment,True,confident
+Gas ka bill jama karwana hai,bill_payment,0.9999839067459106,bill_payment,True,confident
+Show my saved beneficiaries,show_list,1.0000100135803223,show_list,True,confident
+اس مہینے کی پوری تنخواہ دکھاؤ,fund_transfer_history,0.9194774031639099,chat_agent,False,confident
+List all my billers,show_list,1.0000100135803223,show_list,True,confident
+کارڈ کا سالانہ اسٹیٹمنٹ چاہیے,activate_card,0.9980999827384949,chat_agent,False,confident
+Mere linked accounts dikhao,show_list,1.0000094175338745,show_list,True,confident
+کا  اسٹیٹمنٹ چاہیے account,generate_amc,0.9927687644958496,chat_agent,False,confident
+show my payement list,show_list,0.9999388456344604,show_list,True,confident
+Display saved recipients /records,show_list,1.0000100135803223,show_list,True,confident
+generate the amc,generate_amc,1.0000100135803223,generate_amc,True,confident
+Show my transfer history for last month,fund_transfer_history,1.0000100135803223,fund_transfer_history,True,confident
+یتیم بچوں کی مدد کرنی ہے کچھ پیسوں سے,bill_payment,0.5339621901512146,donation,False,confident
+What transfers did I make this week?,fund_transfer_history,1.0000100135803223,fund_transfer_history,True,confident
+Show fund transfers between Jan and March,fund_transfer_history,0.9999978542327881,fund_transfer_history,True,confident

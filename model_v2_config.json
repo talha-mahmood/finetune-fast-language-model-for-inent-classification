@@ -1,0 +1,18 @@
+{
+  "base_model": "intent_model.bin",
+  "added_data_file": "/kaggle/input/datasets/peacepath/tabinda-dataset/updated_tabinda_fasttext_master_train_data.txt",
+  "added_rows": 42242,
+  "test_accuracy_original": 0.994083715426712,
+  "test_accuracy_new_holdout": 1.0,
+  "hyperparams": {
+    "lr": "0.5981511727499647",
+    "dim": "160",
+    "epoch": "100",
+    "wordNgrams": "2",
+    "minCount": "1",
+    "minn": "2",
+    "maxn": "5",
+    "bucket": "1173215",
+    "loss": "loss_name.softmax"
+  }
+}
